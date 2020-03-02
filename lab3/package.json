@@ -1,0 +1,19 @@
+{
+  "name": "cs-554-lab-3",
+  "version": "1.0.0",
+  "description": "Using Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Justin Westley 10416230",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.2",
+    "node-redis": "^0.1.7",
+    "redis": "^3.0.2"
+  }
+}

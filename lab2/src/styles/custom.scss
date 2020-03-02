@@ -1,0 +1,61 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+/* That imports the entirety of bootstrap, taken from ../../node_modules/bootstrap/scss/bootstrap.scss
+ we can optimize it by only selectively including the modules we need:
+*/
+
+/* 
+ @import "functions";
+ @import "variables";
+ @import "mixins";
+ @import "root";
+ @import "reboot";
+ @import "type";
+ @import "images";
+ @import "code";
+ @import "grid";
+ @import "tables";
+ @import "forms";
+ @import "buttons";
+ @import "transitions";
+ @import "dropdown";
+ @import "button-group";
+ @import "input-group";
+ @import "custom-forms";
+ @import "nav";
+ @import "navbar";
+ @import "card";
+ @import "breadcrumb";
+ @import "pagination";
+ @import "badge";
+ @import "jumbotron";
+ @import "alert";
+ @import "progress";
+ @import "media";
+ @import "list-group";
+ @import "close";
+ @import "modal";
+ @import "tooltip";
+ @import "popover";
+ @import "carousel";
+ @import "utilities";
+ @import "print";
+
+ */
+
+body,
+html {
+    background: $body-background;
+    background-color: $light;
+    color: darken($brand-primary, 20%);
+    font-family: $font-family-base;
+    font-size: $primary-font-size;
+}
+
+.parent-class {
+    .card {
+      min-width: 200px;
+      min-height: 300px;
+    }
+  }
