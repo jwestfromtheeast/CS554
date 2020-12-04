@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.custom-btn {
+  background: #fff;
+  color: #8f0000;
+  border: 2px solid #8f0000;
+  border-radius: 3px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+.custom-nav {
+  color: #8f0000;
+}
+
+.custom-header {
+  color: #ff0000;
+}
+
+.custom-txt {
+  color: white;
+}
+
+a { color: white; }
+
+.over {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+.bg {
+  background-color: #333333;
+}
+
+.spin-border {
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.spin {
+  padding: 33px;
+}
+
+.pagination > li > a
+{
+    background-color: white !Important;
+    color: #8f0000 !Important;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color:#8f0000 !Important;
+    background-color: #fff !Important;
+    border-color: #ddd !Important;
+}
+
+.pagination > .active > a
+{
+    color: rgb(255, 0, 34) !Important;
+    background-color: rgb(255, 0, 34) !Important;
+    border: solid 1px #8f0000 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #8f0000 !Important;
+    border: solid 1px #8f0000 !Important;
+}
